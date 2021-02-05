@@ -96,7 +96,6 @@ public class servletAlumnos extends HttpServlet {
         ArrayList<Alumno> alumnosSelec = new ArrayList();
         
         String grupo = request.getParameter("grupo");
-        
         for (int i = 0; i <= ultimoId; i++) {
             if(request.getParameter(String.valueOf(i)) != null) {
                 for (Alumno alum : alumnos) {

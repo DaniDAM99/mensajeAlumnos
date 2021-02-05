@@ -48,7 +48,7 @@
                             <td><%=a.getNombre()%></td>
                             <td><%=a.getApellidos()%></td>
                             <td><%=a.getCorreo()%></td>
-                            <td><input type="checkbox" value="<%=a.getId()%>"></td>
+                            <td><input type="checkbox" name="<%=a.getId()%>" value="<%=a.getId()%>"></td>
                         </tr>
                         <%}%>
                     </table>
